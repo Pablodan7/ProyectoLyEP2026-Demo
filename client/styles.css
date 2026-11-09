@@ -1,4 +1,83 @@
-/* Estilos complementarios opcionales */
+/* Estilos complementarios de la demo */
 body {
   min-height: 100vh;
+}
+
+#credito-info {
+  transition: background-color 0.2s, border-color 0.2s, color 0.2s;
+}
+
+.credito-neutro {
+  background: #f8fafc;
+  border-color: #e2e8f0;
+  color: #475569;
+}
+
+.credito-ok {
+  background: #ecfdf5;
+  border-color: #a7f3d0;
+  color: #047857;
+}
+
+.credito-alerta {
+  background: #fef2f2;
+  border-color: #fecaca;
+  color: #b91c1c;
+}
+
+.credito-aviso {
+  background: #fffbeb;
+  border-color: #fde68a;
+  color: #b45309;
+}
+
+.badge-online {
+  background: #d1fae5;
+  color: #047857;
+}
+
+.badge-offline {
+  background: #fee2e2;
+  color: #b91c1c;
+}
+
+.badge-pendiente {
+  background: #fef3c7;
+  color: #b45309;
+}
+
+.estado-badge {
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 600;
+  padding: 2px 6px;
+  border-radius: 9999px;
+  white-space: nowrap;
+}
+
+.estado-aprobado {
+  background: #d1fae5;
+  color: #047857;
+}
+
+.estado-credito {
+  background: #fef3c7;
+  color: #b45309;
+}
+
+.estado-sync {
+  background: #e0e7ff;
+  color: #4338ca;
+}
+
+.mensaje-ok {
+  background: #ecfdf5;
+  border: 1px solid #a7f3d0;
+  color: #047857;
+}
+
+.mensaje-aviso {
+  background: #fffbeb;
+  border: 1px solid #fde68a;
+  color: #b45309;
 }

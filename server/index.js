@@ -22,7 +22,7 @@ app.use(express.json());
 // Servir la interfaz visual desde la carpeta client
 app.use(express.static(path.join(__dirname, '../client')));
 
-// Conexión DB
+// Conexion DB
 connectDB();
 
 // Rutas API REST
@@ -30,5 +30,5 @@ app.use('/api/clientes', clienteRoutes);
 app.use('/api/pedidos', pedidoRoutes);
 
 app.listen(PORT, () => {
-  console.log(`🟢 Servidor corriendo en http://localhost:${PORT}`);
+  console.log(`Servidor corriendo en http://localhost:${PORT}`);
 });
